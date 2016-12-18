@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            function uploadFile(file)
+            {
+                console.log(file.size);
+                var url = 'http://127.0.0.1:8080';
+                var xhr = new XMLHttpRequest();
+                var fd = new FormData();
+                xhr.open("POST", url, true);
+                xhr.onreadystatechange = function() 
+                {
+                    if (xhr.readyState == 4) 
+                        console.log(xhr.responseText); // handle response.
+                    else
+                        console.log(xhr.responseText); // handle response.
+                };
+                xhr.onload = function()
+                {
+                    alert("Upload is done.");
+                };
+                fd.append("upload_file", file);
+                xhr.send(fd);
+            }
+
+            function up()
+            {
+                var files = document.getElementById("uploadfiles");
+                
+                if (files.files[0].size < 4000000000)
+                    uploadFile(files.files[0]);
+                else
+                    alert("Size is over 4GB.");
+            }
+        </script>
+        <input type="file" id="uploadfiles"/>
+        <button onclick="up()">Submit</button>
+    </body>
+</html>

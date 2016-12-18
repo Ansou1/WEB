@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    </head>
+    <body>
+        <script type="text/javascript">
+            function download()
+            {
+                var url = "http://127.0.0.1:8080/";
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function() 
+                {
+                    if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) 
+                    {
+                        console.log(xhr.responseText);
+                        var file = xhr.responseText;
+                        var index = file.indexOf("/");
+                        if (index != -1)
+                        {
+                            var file_name = file.substring(0,index);
+                            var new_file = file.substring(index+1);
+                            console.log(file_name);
+                            console.log(new_file); /* I didn't add enough time to use JSON */
+                        }
+
+                    }
+                };
+                xhr.open("GET", url, true);
+                xhr.overrideMimeType('text/html');
+                xhr.overrideMimeType('text/css');
+                xhr.send(null);
+            }
+
+        </script>
+        <button onclick="download()">Receive</button>
+    </body>
+</html>
