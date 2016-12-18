@@ -1,0 +1,297 @@
+body {
+	width : 1000px;
+	margin : auto;
+	margin-top : 0px;
+	font-family : helvetica;
+	padding : 0px;
+}
+
+p {
+	font-size : 12px;
+	margin-bottom : 0px;
+}
+
+hr {
+	padding-left : 5px;
+}
+
+table {
+	border-collapse : collapse;
+	margin-top : 20px;
+	margin-bottom : 10px;
+	width : 100%;
+}
+
+th, td {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+td {
+	color : white;
+	text-align : right;
+	font-size : 12px;
+}
+
+
+
+tr:hover, td:hover {
+	color : rgb(0, 153, 51);
+	background-color : rgb(204, 204, 204);
+}
+
+iframe {
+	width : 100%;
+	height : 300px;
+}
+
+#head {
+	background-color : black;
+	height : 200px;
+}
+
+#ionis {
+	color : white;
+	text-transform : uppercase;
+	font-size : 12px;
+	padding : 15px;
+	margin : 0px;
+}
+
+#bottom_head{
+	float : right;
+	padding-right : 50px;
+	padding-top : 112px;
+	color : white;
+}
+
+#bottom_head a {
+	color : white;
+	font-size : 12px;
+	text-decoration : none;
+}
+
+#bottom_head a:hover {
+	text-decoration : underline;
+}
+
+#loundge {
+	background-color : rgb(0, 153, 51);
+	height : 381px;
+	width : 1000px;
+	margin-bottom : 20px;
+}
+
+#loundge a {
+	color : black;
+	text-decoration : none;
+}
+
+#loundge a:hover {
+	color : white;
+}
+
+#loundge img {
+	float : right;
+	margin-right : 50px;
+}
+
+#loundge p {
+	margin : 0px;
+	text-transform : uppercase;
+	padding : 20px;
+	padding-left : 32px;
+	padding-bottom : 25px;
+	color : white;
+	font-size : 24px;
+	width : 250px;
+}
+
+#loundge ul {
+	list-style-type : none;
+	text-transform : uppercase;
+	padding : 0px;
+	margin : 0px;
+	width : 320px;
+}
+
+#loundge li {
+	padding : 10px;
+	font-size : 20px;
+	padding-left : 40px;
+	margin-top : 6px;
+	margin-bottom : 6px;
+}
+
+#loundge li:hover {
+	color : white;
+	background-color : black;
+	background-image : url('misc/fleche.jpg');
+	background-repeat : no-repeat;
+	background-position : 05% 50%;
+}
+
+#loundge li:hover a {
+	color : white;
+	text-transform : uppercase;
+	text-decoration : none;
+}
+
+#offres {
+	float : left;
+	background-color : rgb(0, 153, 51);
+	margin-left : 10px;
+	width : 29%;
+	padding : 5px;
+}
+
+#offres td {
+	padding: 10px;
+	padding-bottom : 4px;
+}
+
+#offres h3 {
+	margin : 10px;
+}
+
+#offres hr {
+	margin-left : 5px;
+	margin-right : 5px;
+	margin-top : 15px;
+}
+
+.first {
+	text-transform : uppercase;
+	text-align : left;
+}
+
+#footer {
+	background-color : black;
+	width : 1000px;
+	float : left;
+	text-align : center;
+}
+
+#footer a, #footer p {
+	text-decoration : none;
+	text-transform : uppercase;
+	color : rgb(204, 204, 204);
+	margin-bottom : 10px;
+}
+
+#footer a:hover{
+	color : white;
+}
+
+.block {
+	width : 30%;
+	height : 25%;
+	float : left;
+}
+
+.block p {
+	margin-left : 20px;
+	margin-top : 6px;
+}
+
+.block h3 {
+	text-transform : uppercase;
+	margin : 0px;
+	padding : 2px;
+}
+
+.block img {
+	margin-top : 2px;
+	margin : 5px;
+	float : left;
+}
+
+.greyblock img {
+	padding : 20px;
+	float : left;
+}
+
+.button {
+	background-color : rgb(0, 153, 51);
+	text-transform : uppercase;
+	padding : 2px;
+	margin-top : 15px;
+	margin-right : 10px;
+	float : right;
+	margin-bottom : 10px;
+}
+
+.button a {
+	margin : 0px;
+	padding : 10px;
+	text-decoration : none;
+	color : white;
+}
+
+.button:hover {
+	background-color : black;
+}
+
+.descri {
+	margin-top : 50px;
+}
+
+.greyblock {
+	margin-left : 10px;
+	background-color : rgb(204, 204, 204);
+	width : 64%;
+	float : left;
+	margin-bottom : 15px;
+}
+
+.greyblock2 {
+	margin-left : 10px;
+	background-color : rgb(204, 204, 204);
+	width : 31%;
+	float : left;
+	margin-bottom : 15px;
+	padding : 10px;
+}
+
+.greyblock2 h3 {
+	margin : 10px;
+}
+
+.greyblock2 img {
+	margin : 5px;
+	float : left;
+}
+
+.greyblock2 hr {
+	margin-left : 5px;
+	margin-right : 5px;
+	margin-top : 20px;
+}
+
+.black {
+	color : black;
+	text-transform : uppercase;
+	font-weight : bold;
+}
+
+.green {
+	color : rgb(0, 153, 51);
+	text-transform : none;
+}
+
+.white {
+	color : white;
+	text-transform : none;
+}
+
+.blackhr {
+	margin-right : 6px;
+	color : black;
+}
+
+.uppergreen {
+	text-transform : uppercase;
+	color : green;
+	font-size : 10px;
+	text-decoration : none;
+	margin-bottom : 15px;
+}
