@@ -1,0 +1,58 @@
+			  ______     _______.     _______.       _______  _______ .__   __.  _______ .______          ___   .___________.  ______   .______      
+			 /      |   /       |    /       |      /  _____||   ____||  \ |  | |   ____||   _  \        /   \  |           | /  __  \  |   _  \     
+			|  ,----'  |   (----`   |   (----`     |  |  __  |  |__   |   \|  | |  |__   |  |_)  |      /  ^  \ `---|  |----`|  |  |  | |  |_)  |    
+			|  |        \   \        \   \         |  | |_ | |   __|  |  . `  | |   __|  |      /      /  /_\  \    |  |     |  |  |  | |      /     
+			|  `----.----)   |   .----)   |        |  |__| | |  |____ |  |\   | |  |____ |  |\  \----./  _____  \   |  |     |  `--'  | |  |\  \----.
+			 \______|_______/    |_______/     _____\______| |_______||__| \__| |_______|| _| `._____/__/     \__\  |__|      \______/  | _| `._____|
+			                                  |______|                                                                                               
+
+			NAME  css_generator – sprite generator for HTML use 
+ 
+			SYNOPSIS  css_generator [OPTIONS]... assets_folder 
+ 
+			DESCRIPTION  Concatenate all PNG images inside a folder in one sprite and write a stylesheet ready to use.  
+			Mandatory arguments to long options are mandatory for short options too. 
+			 -r, --recursive 
+			  Look for images into the assets_folder passed as arguement and all of its subdirectories.
+
+			-i, --output-image=IMAGE 
+			  Name of the generated image. If blank, the default name is « sprite.png ». 
+
+			 -s, --output-style=STYLE 
+ 			 Name of the generated stylesheet. If blank, the default name is « style.css » .
+
+			 -p, --padding=NUMBER 
+			  Add padding between images of NUMBER pixels.
+
+			 -o, --override-size=SIZE 
+			  Force each images of the sprite to fit a size of SIZExSIZE pixels .
+
+			 -c, --columns_number=NUMBER 
+			  The maximum number of elements to be generated horizontally.
+
+			 -v, --verbose
+			   Verbal mode, prints everything css_generator does.
+
+			 -h, --help
+			   Prints this man.
+
+			 -b --bounce
+			   Add an animation to the css stylesheet so that pictures bouces when loading the page.
+
+			 -e --effect
+			   Adds an effect to the output sprite. Here is a list of the availables effects :
+
+			   			negate :
+			   				Reverses all colors of the image.
+
+			   			grayscale :
+			   				Converts the image into grayscale. 
+
+			   			emboss :
+			   				Embosses the image. 
+
+			   			blur :
+			   				Blurs the image. 
+
+			   			sketchy :
+			   				Uses mean removal to achieve a "sketchy" effect.
