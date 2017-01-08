@@ -1,7 +1,7 @@
 $(function(){
 
-	$("#p1").click(function(){
-			$("#p4").hide("slow");
-	});
+	$("#start").click(function() {
+		$("p").not(".special").css("border-color", "green");
 
+	})
 });
