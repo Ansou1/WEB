@@ -195,7 +195,6 @@ section .heading h2
 
 .timeline > li
 {
-	list-style: none;
 	margin-bottom: 20px;
 	position: relative;
 }
@@ -400,13 +399,10 @@ footer h5
 
 
 
-/*
-#ccc308
-#E2FF63
-#EB24FF
-#99535F
-#CC082A
-*/
+
+
+
+
 
 
 
