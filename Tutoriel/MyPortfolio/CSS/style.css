@@ -1,3 +1,9 @@
+/*
+#FF6440
+#FFDB40
+*/
+
+
 /* ##### GENERAL #####*/
 body
 {
@@ -35,7 +41,7 @@ section .heading h2
 {
 	width: 100px;
 	height: 2px;
-	background: #d82c2e;
+	background: #408AD2;
 	margin: 0 auto;
 }
 
@@ -43,14 +49,14 @@ section .heading h2
 {
 	width: 100px;
 	height: 2px;
-	background: white;
+	background: #FFDB40;
 	margin: 0 auto;
 }
 
 /* ##### MENU ##### */
 .navbar
 {
-	background: #d82c2e;
+	background: #408AD2;
 	font-size: 12px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
@@ -76,8 +82,8 @@ section .heading h2
 
 .navbar-nav li a:hover, .navbar-nav li.active a 
 {
-	color: #d82c2e !important;
-	background-color: white !important;
+	color: #408AD2 !important;
+	background-color: #FFDB40 !important;
 }
 
 .navbar-default .navbar-toggle
@@ -94,7 +100,7 @@ section .heading h2
 #about
 {
 	padding-top: 100px;
-	background: #d82c2e;
+	background: #408AD2;
 }
 
 .profile-picture
@@ -130,8 +136,8 @@ section .heading h2
 
 .button1:hover
 {
-	background: white;
-	color: #d82c2e;
+	background: #FFDB40;
+	color: #408AD2;
 	text-decoration: none;
 }
 
@@ -143,7 +149,7 @@ section .heading h2
 
 #skills .heading h2
 {
-	color: #d82c2e;
+	color: #408AD2;
 }
 
 #skills .progress
@@ -155,7 +161,7 @@ section .heading h2
 
 #skills .progress-bar
 {
-	background: #d82c2e;
+	background: #408AD2;
 }
 
 #skills .progress h5
@@ -167,12 +173,12 @@ section .heading h2
 
 #experience
 {
-	background: #d82c2e;
+	background: #408AD2;
 }
 
 #experience .heading h2
 {
-	color: white;
+	color: #FFDB40;
 }
 
 .timeline
@@ -188,13 +194,14 @@ section .heading h2
 	position: absolute;
 	content: " ";
 	width: 5px;
-	background-color: #333;
+	background-color: #FFDB40;
 	left: 50%;
 	margin-left: -2.5px;
 }
 
 .timeline > li
 {
+	list-style: none;
 	margin-bottom: 20px;
 	position: relative;
 }
@@ -212,7 +219,7 @@ section .heading h2
 
 .timeline li .timeline-badge
 {
-	color: #d82c2e;
+	color: #408AD2;
 	width: 50px;
 	line-height: 50px;
 	font-size: 20px;
@@ -277,15 +284,21 @@ section .heading h2
 	right: auto;
 }
 
+.timeline-heading a
+{
+	text-decoration:none;
+}
+
 .timeline-heading h3
 {
 	margin-top: 5px;
 	font-size: 20px;
+	color: black;
 }
 
 .timeline-heading h4
 {
-	color: #d82c2e;
+	color: #408AD2;
 }
 
 /* ##### EDUCATION ##### */
@@ -297,7 +310,7 @@ section .heading h2
 
 #education .heading h2
 {
-	color: #d82c2e;
+	color: #408AD2;
 }
 
 .education-block
@@ -326,7 +339,12 @@ section .heading h2
 
 .education-block h3
 {
-	color: #d82c2e;
+	color: #408AD2;
+}
+
+.education-block a
+{
+	text-decoration:none;
 }
 
 .education-block h4
@@ -347,12 +365,12 @@ section .heading h2
 /* ##### PORTFOLIO ##### */
 #portfolio
 {
-	background: #d82c2e;
+	background: #408AD2;
 }
 
 #portfolio .heading h2
 {
-	color: #fff;
+	color: #FFDB40;
 }
 
 #portfolio .thumbnail img
@@ -380,7 +398,7 @@ footer .glyphicon
 {
 	font-size: 25px;
 	margin: 20px;
-	color: #d82c2e;
+	color: #408AD2;
 	height: 30px;
 }
 
