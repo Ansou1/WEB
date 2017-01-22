@@ -1,0 +1,20 @@
+Création de deux "final class" suplémentaire:
+Shaman qui hérite de AHero et qui implémente ISupport,IDPS
+Rogue qui hérite de AHero et qui implémente IDPS
+
+Parseur XML appelé getHeroesFromFileXML:
+
+exemple de fichier à passer en paramètre:
+
+<?xml version="1.0" encoding="utf-8"?>
+<test_assistant>
+  <hero type="Warrior">
+    <name>toto</name>
+    <domage>21</domage>
+  </hero>
+  <hero type="Receptarier">
+    <name>zero</name>
+    <domage>47</domage>
+    <heal>42</heal>
+  </hero>
+</test_assistant>
